@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Per Te ❤️</title>
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div id="background">
+        <div class="gradient-overlay"></div>
+        <div id="hearts-container"></div>
+        <div class="light-glow"></div>
+    </div>
+
+    <!-- APP -->
+    <main id="app">
+
+        <!-- INTRO -->
+        <section id="intro">
+            <div class="intro-content">
+
+                <h1 class="main-title">Ti Amo🩷</h1>
+
+                <p class="subtitle">
+                    un piccolo regalino
+                </p>
+
+                <button id="startBtn" class="primary-button">
+                    ✨ Tocca qui ✨
+                </button>
+
+            </div>
+        </section>
+
+        <!-- LETTERA -->
+        <section id="letter-section">
+
+            <div class="letter-header">
+                <h2 class="romantic-title">Per te</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div id="messages-container">
+                <!-- JS inserisce i messaggi -->
+            </div>
+
+            <!-- FINALE -->
+            <div id="final-section" class="hidden">
+
+                <button id="revealBtn" class="primary-button">
+                    🩷Clicca per scoprire🩷
+                </button>
+
+                <div id="binary-container" class="hidden">
+                    <p class="binary-text"></p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- TEMPLATE MESSAGGI -->
+    <template id="message-template">
+        <div class="message-block">
+            <p class="message-text"></p>
+        </div>
+    </template>
+
+    <!-- AUDIO (OPZIONALE) -->
+    <audio id="bg-music" loop>
+        <source src="Poter scegliere [KlmT9d3a2TI].mp3" type="audio/mp3">
+    </audio>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
